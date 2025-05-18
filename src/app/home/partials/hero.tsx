@@ -38,33 +38,6 @@ const Hero = () => {
             alt='hero-image'
             className='object-contain'
           />
-        </SkewMotion>
-        <FeatureCard
-          icon={<Icon icon='mingcute:flash-fill' />}
-          title='Elite Solutions'
-          description='Cutting-edge tech, flawless execution'
-          animationDelay={0.2}
-          className='absolute top-[10%] right-1/2 -translate-x-[6.25%]'
-        />
-        <FeatureCard
-          icon={<Icon icon='ri:brain-fill' />}
-          title='Smart Tech'
-          description='Innovation that drives real growth.'
-          animationDelay={0.2}
-          className='absolute top-[43%] left-1/2 translate-x-[37.5%]'
-        />
-        <FeatureCard
-          icon={<Icon icon='bi:bar-chart-fill' />}
-          title='Real Impact'
-          description='We turn ideas into measurable success'
-          animationDelay={0.2}
-          className='absolute top-[49%] right-1/2 -translate-x-[48%]'
-        />
 
-        <div className='from-base-background absolute inset-x-0 bottom-0 h-[20%] bg-gradient-to-t to-transparent' />
-      </div>
-    </section>
-  );
-};
 
 export default Hero;
